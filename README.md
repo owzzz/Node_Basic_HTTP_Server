@@ -1,6 +1,6 @@
-# Basic_HTTP_Server
+# Basic HTTP Server
 
-A simple HTTP Server
+A simple "Hello World" HTTP Server
 
 ## Getting Started
 Install the module with: `npm install Basic_HTTP_Server`
