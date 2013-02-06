@@ -20,15 +20,12 @@ var httpServer = require('../lib/server.js');
     test.ifError(value)
 */
 
-exports['httpServer'] = {
-  setUp: function(done) {
-    // setup here
-    done();
-  },
-  'no args': function(test) {
+exports.test = {
+  StartServer : function(test){
     test.expect(1);
     // tests here
-    test.equal(httpServer.server(), 'httpServer', 'should be httpServer.');
+    test.equal(httpServer.createHttpServer(),  'Server running at http://127.0.0.1:1337/', 'Server running at http://127.0.0.1:1337/');
     test.done();
   }
 };
+

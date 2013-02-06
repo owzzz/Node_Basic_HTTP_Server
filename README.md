@@ -7,7 +7,7 @@ Install the module with: `npm install Basic_HTTP_Server`
 
 ```javascript
 var Basic_HTTP_Server = require('Basic_HTTP_Server');
-Basic_HTTP_Server.awesome(); // "awesome"
+Basic_HTTP_Server.createHttpServer(); // "true"
 ```
 
 ## Documentation
@@ -23,5 +23,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 owzzz  
+Copyright (c) 2013 owzzz
 Licensed under the MIT license.
