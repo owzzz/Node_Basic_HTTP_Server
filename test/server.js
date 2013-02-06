@@ -1,4 +1,4 @@
-var Basic_HTTP_Server = require('../lib/Basic_HTTP_Server.js');
+var Basic_HTTP_Server = require('../lib/server.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -20,7 +20,7 @@ var Basic_HTTP_Server = require('../lib/Basic_HTTP_Server.js');
     test.ifError(value)
 */
 
-exports['awesome'] = {
+exports['server'] = {
   setUp: function(done) {
     // setup here
     done();
@@ -28,7 +28,7 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(Basic_HTTP_Server.awesome(), 'awesome', 'should be awesome.');
+    test.equal(server.server(), 'server', 'should be server.');
     test.done();
   }
 };
