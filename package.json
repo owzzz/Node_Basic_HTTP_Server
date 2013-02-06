@@ -1,0 +1,35 @@
+{
+  "name": "Basic_HTTP_Server",
+  "description": "A simple HTTP Server",
+  "version": "0.1.0",
+  "homepage": "https://github.com/owzzz/Node_Basic_HTTP_Server",
+  "author": {
+    "name": "owzzz",
+    "email": "owain.llew@gmail.com",
+    "url": "http://www.hanger-designs.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/owzzz/Node_Basic_HTTP_Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/owzzz/Node_Basic_HTTP_Server/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/owzzz/Node_Basic_HTTP_Server/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/Basic_HTTP_Server",
+  "engines": {
+    "node": "0.8.18"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
